@@ -1,112 +1,57 @@
 body{
-    background-color: #27213C;
-    margin: 0;
-    color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    color:#9B4922;
+    font-family: sans-serif;
+    margin:0;
 }
-header{ 
-    background-color: rgba(39,33,60,.70);
-    display:inline-block;
-    flex-direction:row-reverse;
-    align-items: left;
-    position:fixed;
-    top:0;
-    width: 100%;
-    z-index: 1;
+header{
+    background-color:black;
+    padding:2rem;
+            display: flex;
+    justify-content: flex-end;
+        }
+header a{
+    color:white;
 }
-nav>a{
-    color:#e2512d;
-    text-decoration: none;
-    padding:1rem 2rem;
-    font-weight: 900;
-    display: inline-block;
+header{text-align:center;}
+main{
+    padding:1rem;
 }
-nav>a:hover{
-    color:#A33B20;
-    text-decoration: underline;
-}
-.animal-background{
-    position: fixed;
-    top:-12rem;
-    width:200%;
-    left:-51%;
-    height:50rem;
-    z-index:-1;
-    background-image: url(images/animal.jpg);
-    background-size:cover;
-}
-section>h2{
-    text-align: center;
-    padding:13rem 0;
-    text-shadow:2px 2px 2px #27213C;
+
+.index {
+    background-image: url(images/concert.jpeg);
     background-size: cover;
-    margin: 0;
+    padding: 20rem 0 40rem 4rem;
+    text-shadow: 2px 2px 2px 2px;
 }
-section{
-    background-color: #A33B20;
+
+h2{
+vertical-align: baseline;
+display: inline-block;
+justify-content:flex-start;
+align-items:flex-start;
+font-size: 80px;
+height:40%;
 }
-.animals{
-    background-color: transparent;
+h3{
+    vertical-align: baseline;
+    display:flex;
+    flex-direction:row-reverse;
+    align-items: flex-end;
+    font-size: 80px;
+    padding-top: 70%;
+    }
+.letstalk{
+    background-color: #9B4922;
+    background-size: 40rem;
+    padding:40rem;
+    margin:0;
+    font-size: 5rem;
 }
-.sloth>h2{
-    background-image: url(images/sloth.jpg);
-}
-.elephant>h2{
-    background-image: url(images/elephant.jpg);
-}
-.owl>h2{
-    background-image: url(images/owl.jpg);
-}
-article{
-    padding: 1rem;
-}
-section span{
-    position: absolute;
-    top: 15rem;
-    font-size: 2rem;
-    left: 48%;
-    transform:rotate(0);
-}
-section>h2{
-    position: relative;
-    border-bottom: 2rem solid #e2512d;
-}
-.accordian{
-    cursor:pointer;
-}
-article{
-    display: none;
-    max-width:60rem;
-    margin: 0 auto;
-}
-article.show{
-    display: block;
-}
-.sidelink{
-    background-color: #27213C;
-    color: #fff;
-    padding: 1rem 2rem;
-    text-decoration: none;
-    position: fixed;
-    transform: rotate(90deg);
-    z-index: 1;
-    top: 40%;
-    right: -5rem;
-}
-@media (min-width:1000px){
-    .animal-background{
-        height: 100rem;
-        top: -25%;}
-    section>h2{
-        padding:23rem 0;
-        font-size: 3rem;
-        background-position:center;}
-    section span{
-        font-size: 4rem;
-        top: 26rem;
-        left:48%;}
-        nav{
-            position:absolute;
-            top: 30%;
-            left: 0%;}
-}
+
+.jellies {background-color: rgb(19,107,114);}
+.jellies {padding:1rem;}
+.jellies {display: inline-block;}
+.jellies {margin:.5rem;}
+.jellies {vertical-align: top;}
+.jellies {width: 29%}
