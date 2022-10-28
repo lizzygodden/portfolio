@@ -7,32 +7,30 @@ body{
 header{
     background-color:black;
     padding:2rem;
-            display: flex;
+    display: flex;
     justify-content: flex-end;
         }
 header a{
     color:white;
 }
-header{text-align:center;}
-main{
-    padding:1rem;
+header{text-align:center;
+align-items:center;
 }
 
 .index {
     background-image: url(images/concert.jpeg);
     background-size: cover;
     padding: 20rem 0 40rem 4rem;
-    text-shadow: 2px 2px 2px 2px;
-}
+    text-shadow: 2px 2px 2px 2px;}
 
-h2{
-vertical-align: baseline;
-display: inline-block;
-justify-content:flex-start;
-align-items:flex-start;
-font-size: 80px;
-height:40%;
-}
+    h2{
+    vertical-align: baseline;
+    display: inline-block;
+    justify-content:flex-start;
+    align-items:flex-start;
+    font-size: 80px;
+    height:40%;}
+
 h3{
     vertical-align: baseline;
     display:flex;
@@ -43,15 +41,38 @@ h3{
     }
 .letstalk{
     background-color: #9B4922;
-    background-size: 40rem;
-    padding:40rem;
+    background-size: 5rem;
+    padding:4rem 4rem 30rem;
     margin:0;
     font-size: 5rem;
+    color:white;
+}
+.letstalk h2{
+vertical-align: baseline;
+display: block;
+justify-content:flex-start;
+align-items:flex-start;
+font-size: 80px;
+height:40%;
+width: 30%;
 }
 
-.jellies {background-color: rgb(19,107,114);}
-.jellies {padding:1rem;}
-.jellies {display: inline-block;}
-.jellies {margin:.5rem;}
-.jellies {vertical-align: top;}
-.jellies {width: 29%}
+header img{
+    padding-right:80%;
+    max-width:10rem;
+}
+.contactinfo h2{
+color:white;
+display: block;
+justify-content:flex-start;
+align-items:flex-start;
+font-size: 80px;
+height:40%;
+width: 30%;
+}
+
+
+
+
+
+
