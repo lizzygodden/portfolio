@@ -47,6 +47,7 @@ h3{
     font-size: 5rem;
     color:white;
 }
+
 .letstalk h2{
 vertical-align: baseline;
 display: block;
@@ -71,9 +72,20 @@ font-size: 80px;
 height:40%;
 width: 30%;
 }
-
-
-
-
-
-
+.resume{
+    background-color: #70A0AF;
+    background-size: 5rem;
+    padding:4rem 4rem 30rem;
+    margin:0;
+}
+.resumes{
+display: flex;
+justify-content: center;
+padding: 2rem;
+size-adjust: 1rem;
+}
+.stick{
+    display: flex;
+    justify-content: center;
+    padding:2rem;
+}
