@@ -21,18 +21,18 @@ align-items:center;
     background-image: url(images/rolemodel.jpg);
     background-size:contain;
     background-repeat: no-repeat;
-    height:400;
-    height:500;
+    height:125rem;
     text-shadow: 2px 2px 2px 2px;
  }
 
-    h2{
+h2{
     vertical-align: baseline;
     display: inline-block;
     justify-content:flex-start;
     align-items:flex-start;
     font-size: 80px;
-    height:40%;}
+    height:40%;
+}
 
 h3{
     vertical-align: baseline;
@@ -40,7 +40,8 @@ h3{
     flex-direction:row-reverse;
     align-items: flex-end;
     font-size: 80px;
-    padding-top: 70%;
+    padding-top: 24%;
+    padding-right:3rem;
     }
 h4{
     font-size: 30px;
@@ -87,7 +88,6 @@ size-adjust: 1rem;
     padding:2rem 3rem;
     height:75vh;
 }
-<<<<<<< HEAD
 .letstalk>section{
     width:35%;
 }
@@ -101,7 +101,7 @@ margin-left:15rem;
 .box{
     background: rgb(207,168,151);
 background: linear-gradient(90deg, rgba(207,168,151,1) 0%, rgba(207,168,151,1) 30%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 100%);
-padding-top:2rem;
+padding-top:4rem;
 padding-bottom:10rem;
 }
 .box h2{
@@ -111,31 +111,11 @@ padding-bottom:10rem;
     padding-left: 8rem;
     padding-right:12rem;
 }
-
-
-
-
-=======
-.jellies {background-color:#CFA897;}
-.jellies {padding:1rem;}
-.jellies {display: inline-block;}
-.jellies {margin:.5rem;}
-.jellies {vertical-align: top;}
-.jellies {width: 29%}
-
-.jells {
-    background-color:black;
-    padding:2rem;
-    text-align: center;
+.box{
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 34%, rgba(86,110,61,1) 34%, rgba(86,110,61,1) 34%, rgba(86,110,61,1) 77%, rgba(255,255,255,1) 77%);
 }
 
-.dw {
-    background-color:white;
-    color:rgb(255,255,255);
-    font-family:'Courier New', Courior, monospace;
-    margin:0;
-}
-.homeslices {
-    padding: 1rem;
-}
->>>>>>> 83e7c61e0e35123009a902157f22f4f4c9a4be08
+
+
+
