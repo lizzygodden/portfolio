@@ -42,20 +42,18 @@ h3{
 .letstalk{
     background-color: #9B4922;
     background-size: 5rem;
-    padding:4rem 4rem 30rem;
     margin:0;
     font-size: 5rem;
     color:white;
+    display: flex;
+justify-content:center;
+align-items:center;
+padding:4rem 4rem 30rem;
 }
 
 .letstalk h2{
 vertical-align: baseline;
-display: block;
-justify-content:flex-start;
-align-items:flex-start;
 font-size: 80px;
-height:40%;
-width: 30%;
 }
 
 header img{
@@ -65,12 +63,7 @@ header img{
 }
 .contactinfo h2{
 color:white;
-display: block;
-justify-content:flex-start;
-align-items:flex-start;
-font-size: 80px;
-height:40%;
-width: 30%;
+font-size: 40px;
 }
 .resume{
     background-color: #70A0AF;
@@ -85,7 +78,33 @@ padding: 2rem;
 size-adjust: 1rem;
 }
 .stick{
-    display: flex;
-    justify-content: center;
-    padding:2rem;
+    padding:2rem 3rem;
+    height:75vh;
 }
+.letstalk>section{
+    width:35%;
+}
+
+.box>img{
+width:35%;
+padding-top:2rem;
+margin-left:15rem;
+}
+
+.box{
+    background: rgb(207,168,151);
+background: linear-gradient(90deg, rgba(207,168,151,1) 0%, rgba(207,168,151,1) 30%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 100%);
+padding-top:2rem;
+padding-bottom:10rem;
+}
+.box h2{
+    font-size: 50px;
+    text-align: right;
+    height:40%;
+    padding-left: 8rem;
+    padding-right:12rem;
+}
+
+
+
+
