@@ -18,10 +18,13 @@ align-items:center;
 }
 
 .index {
-    background-image: url(images/concert.jpeg);
-    background-size: cover;
-    padding: 20rem 0 40rem 4rem;
-    text-shadow: 2px 2px 2px 2px;}
+    background-image: url(images/rolemodel.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:400;
+    height:500;
+    text-shadow: 2px 2px 2px 2px;
+ }
 
     h2{
     vertical-align: baseline;
@@ -39,6 +42,9 @@ h3{
     font-size: 80px;
     padding-top: 70%;
     }
+h4{
+    font-size: 30px;
+}
 .letstalk{
     background-color: #9B4922;
     background-size: 5rem;
@@ -88,4 +94,26 @@ size-adjust: 1rem;
     display: flex;
     justify-content: center;
     padding:2rem;
+}
+.jellies {background-color:#CFA897;}
+.jellies {padding:1rem;}
+.jellies {display: inline-block;}
+.jellies {margin:.5rem;}
+.jellies {vertical-align: top;}
+.jellies {width: 29%}
+
+.jells {
+    background-color:black;
+    padding:2rem;
+    text-align: center;
+}
+
+.dw {
+    background-color:white;
+    color:rgb(255,255,255);
+    font-family:'Courier New', Courior, monospace;
+    margin:0;
+}
+.homeslices {
+    padding: 1rem;
 }
