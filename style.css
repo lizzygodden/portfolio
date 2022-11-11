@@ -1,17 +1,20 @@
 body{
     background-color:white;
-    color:#9B4922;
+    color: white;
     font-family: sans-serif;
     margin:0;
+    display:flex;
+    flex-wrap:wrap;
 }
 header{
-    background-color:black;
+    background-color:rgba(0,0,0,.8);
     padding:2rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
         }
 header a{
     color:white;
+    margin:1rem;
 }
 header{text-align:center;
 align-items:center;
@@ -32,6 +35,7 @@ h2{
     align-items:flex-start;
     font-size: 80px;
     height:40%;
+    padding: 3rem;
 }
 
 h3{
@@ -40,7 +44,7 @@ h3{
     flex-direction:row-reverse;
     align-items: flex-end;
     font-size: 80px;
-    padding-top: 24%;
+    padding-top: 18%;
     padding-right:3rem;
     }
 h4{
@@ -102,20 +106,50 @@ margin-left:15rem;
     background: rgb(207,168,151);
 background: linear-gradient(90deg, rgba(207,168,151,1) 0%, rgba(207,168,151,1) 30%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 100%);
 padding-top:4rem;
-padding-bottom:10rem;
+padding-bottom:12rem;
+margin-bottom:10rem;
 }
-.box h2{
+.box>h2{
     font-size: 50px;
     text-align: right;
-    height:40%;
+    height:80%;
     padding-left: 8rem;
     padding-right:12rem;
 }
 .box{
     background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 34%, rgba(86,110,61,1) 34%, rgba(86,110,61,1) 34%, rgba(86,110,61,1) 77%, rgba(255,255,255,1) 77%);
+background: linear-gradient(90deg, rgba(255,255,255,1) 34%, rgba(207,168,151,1) 34%, rgba(207,168,151,1) 34%, rgba(207,168,151,1) 77%, rgba(255,255,255,1) 77%);
+height:30rem;
 }
-
-
+.box>h2{
+    color:#9B4922
+}
+.boxes>img{
+width:40%;    
+padding-top:5rem;
+padding-left:5rem;
+display:block;
+}
+.boxes{
+background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(86,110,61,1) 15%, rgba(86,110,61,1) 15%, rgba(86,110,61,1) 66%, rgba(86,110,61,1) 66%, rgba(255,255,255,1) 66%);
+margin-bottom: 10rem;
+height:75rem;
+}
+.boxes>h2{
+    color:#9B4922;
+    padding-top:10rem;
+}
+.text>h2{
+    font-size: 50px;
+    text-align: center;
+    height:80%;
+    color:#9B4922;
+}
+.work{
+    align-items:stretch;
+    display: inline-block;
+    justify-content: baseline;
+}
 
 
